@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Module>
+  <ModulePrefs title="Event Reminders" />
+  <Content type="html">
+    <![CDATA[
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<style>
+     #reminder > iframe {display:none;}
+</style>
+</head>
+<body>
+<div id="reminder" style="position: relative; overflow:hidden;background-color: #FFFFFF;text-align:center;">
+     <iframe src="https://goo.gl/bcBJqk" name="frame" id="frame" width="220px" frameborder="0" scrolling="no"></iframe>
+     <iframe src="https://goo.gl/kayCvq" name="frame" id="frame" width="220px" frameborder="0" scrolling="no"></iframe>
+     <iframe src="https://goo.gl/9OZl1N" name="frame" id="frame" width="220px" frameborder="0" scrolling="no"></iframe>
+     <iframe src="https://goo.gl/D327aT" name="frame" id="frame" width="220px" frameborder="0" scrolling="no"></iframe>
+     <iframe src="https://goo.gl/n3bMcw" name="frame" id="frame" width="220px" frameborder="0" scrolling="no"></iframe>
+     <iframe src="https://goo.gl/dNsYKP" name="frame" id="frame" width="220px" frameborder="0" scrolling="no"></iframe>
+     <iframe src="https://goo.gl/LsSbGy" name="frame" id="frame" width="220px" frameborder="0" scrolling="no"></iframe>
+     <iframe src="https://goo.gl/74Hbli" name="frame" id="frame" width="220px" frameborder="0" scrolling="no"></iframe>
+     <iframe src="https://goo.gl/b3UQFQ" name="frame" id="frame" width="220px" frameborder="0" scrolling="no"></iframe>
+     <iframe src="https://goo.gl/ZbXEfg" name="frame" id="frame" width="220px" frameborder="0" scrolling="no"></iframe>
+     <iframe src="https://goo.gl/ImURPi" name="frame" id="frame" width="220px" frameborder="0" scrolling="no"></iframe>
+     <iframe src="https://goo.gl/C1wfy7" name="frame" id="frame" width="220px" frameborder="0" scrolling="no"></iframe>
+     <iframe src="https://goo.gl/GFsae1" name="frame" id="frame" width="220px" frameborder="0" scrolling="no"></iframe>
+     <iframe src="https://goo.gl/YUNqx1" name="frame" id="frame" width="220px" frameborder="0" scrolling="no"></iframe>
+     <iframe src="https://goo.gl/YSbtuj" name="frame" id="frame" width="220px" frameborder="0" scrolling="no"></iframe>
+     <iframe src="https://goo.gl/ezd8ym" name="frame" id="frame" width="220px" frameborder="0" scrolling="no"></iframe>
+     <iframe src="https://goo.gl/OztFNF" name="frame" id="frame" width="220px" frameborder="0" scrolling="no"></iframe>
+     <iframe src="https://goo.gl/3TpSnA" name="frame" id="frame" width="220px" frameborder="0" scrolling="no"></iframe>
+     <iframe src="https://goo.gl/CQXp0b" name="frame" id="frame" width="220px" frameborder="0" scrolling="no"></iframe>
+     <iframe src="https://goo.gl/U6cBQe" name="frame" id="frame" width="220px" frameborder="0" scrolling="no"></iframe>
+     <iframe src="https://goo.gl/ikqFsd" name="frame" id="frame" width="220px" frameborder="0" scrolling="no"></iframe> 
+     <iframe src="https://goo.gl/cQ13S7" name="frame" id="frame" width="220px" frameborder="0" scrolling="no"></iframe>
+     <iframe src="https://goo.gl/5xtCZ1" name="frame" id="frame" width="220px" frameborder="0" scrolling="no"></iframe>
+     <iframe src="https://goo.gl/SNfs10" name="frame" id="frame" width="220px" frameborder="0" scrolling="no"></iframe>
+     <iframe src="https://goo.gl/c3iEzt" name="frame" id="frame" width="220px" frameborder="0" scrolling="no"></iframe>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$( document ).ready(function() {
+   $('#reminder > iframe:gt(0)').hide();
+	
+	setInterval(function() { 
+	  $('#reminder > iframe:first')
+	    .fadeOut(1000)
+	    .next()
+	    .fadeIn(1000)
+	    .end()
+	    .appendTo('#reminder');
+	},  3000);
+});
+</script>
+</body>
+</html>
+]]>
+  </Content>
+</Module>
