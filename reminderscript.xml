@@ -12,31 +12,12 @@
 </head>
 <body>
 <div id="reminder" style="position: relative; overflow:hidden;background-color: #FFFFFF;text-align:center;">
-     <iframe src="https://goo.gl/bcBJqk" name="frame" id="frame" width="220px" frameborder="0" scrolling="no"></iframe>
+     <iframe src="https://jude24.github.io/Test%20Event.html" name="frame" id="frame" width="220px" frameborder="0" scrolling="no"></iframe>
      <iframe src="https://goo.gl/kayCvq" name="frame" id="frame" width="220px" frameborder="0" scrolling="no"></iframe>
      <iframe src="https://goo.gl/9OZl1N" name="frame" id="frame" width="220px" frameborder="0" scrolling="no"></iframe>
      <iframe src="https://goo.gl/D327aT" name="frame" id="frame" width="220px" frameborder="0" scrolling="no"></iframe>
      <iframe src="https://goo.gl/n3bMcw" name="frame" id="frame" width="220px" frameborder="0" scrolling="no"></iframe>
      <iframe src="https://goo.gl/dNsYKP" name="frame" id="frame" width="220px" frameborder="0" scrolling="no"></iframe>
-     <iframe src="https://goo.gl/LsSbGy" name="frame" id="frame" width="220px" frameborder="0" scrolling="no"></iframe>
-     <iframe src="https://goo.gl/74Hbli" name="frame" id="frame" width="220px" frameborder="0" scrolling="no"></iframe>
-     <iframe src="https://goo.gl/b3UQFQ" name="frame" id="frame" width="220px" frameborder="0" scrolling="no"></iframe>
-     <iframe src="https://goo.gl/ZbXEfg" name="frame" id="frame" width="220px" frameborder="0" scrolling="no"></iframe>
-     <iframe src="https://goo.gl/ImURPi" name="frame" id="frame" width="220px" frameborder="0" scrolling="no"></iframe>
-     <iframe src="https://goo.gl/C1wfy7" name="frame" id="frame" width="220px" frameborder="0" scrolling="no"></iframe>
-     <iframe src="https://goo.gl/GFsae1" name="frame" id="frame" width="220px" frameborder="0" scrolling="no"></iframe>
-     <iframe src="https://goo.gl/YUNqx1" name="frame" id="frame" width="220px" frameborder="0" scrolling="no"></iframe>
-     <iframe src="https://goo.gl/YSbtuj" name="frame" id="frame" width="220px" frameborder="0" scrolling="no"></iframe>
-     <iframe src="https://goo.gl/ezd8ym" name="frame" id="frame" width="220px" frameborder="0" scrolling="no"></iframe>
-     <iframe src="https://goo.gl/OztFNF" name="frame" id="frame" width="220px" frameborder="0" scrolling="no"></iframe>
-     <iframe src="https://goo.gl/3TpSnA" name="frame" id="frame" width="220px" frameborder="0" scrolling="no"></iframe>
-     <iframe src="https://goo.gl/CQXp0b" name="frame" id="frame" width="220px" frameborder="0" scrolling="no"></iframe>
-     <iframe src="https://goo.gl/U6cBQe" name="frame" id="frame" width="220px" frameborder="0" scrolling="no"></iframe>
-     <iframe src="https://goo.gl/ikqFsd" name="frame" id="frame" width="220px" frameborder="0" scrolling="no"></iframe> 
-     <iframe src="https://goo.gl/cQ13S7" name="frame" id="frame" width="220px" frameborder="0" scrolling="no"></iframe>
-     <iframe src="https://goo.gl/5xtCZ1" name="frame" id="frame" width="220px" frameborder="0" scrolling="no"></iframe>
-     <iframe src="https://goo.gl/SNfs10" name="frame" id="frame" width="220px" frameborder="0" scrolling="no"></iframe>
-     <iframe src="https://goo.gl/c3iEzt" name="frame" id="frame" width="220px" frameborder="0" scrolling="no"></iframe>
 </div>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script>
