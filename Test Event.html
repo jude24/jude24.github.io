@@ -3,25 +3,22 @@
 <head>
     <title>Test Event</title>
     <script>
-        var offset = 0;
-        function calcOffset() {
-            var xmlhttp = new ActiveXObject("Msxml2.XMLHTTP");
-            xmlhttp.open("GET", "http://stackoverflow.com/", false);
-            xmlhttp.send();
-
-            var dateStr = xmlhttp.getResponseHeader('Date');
-            var serverTimeMillisGMT = Date.parse(new Date(Date.parse(dateStr)).toUTCString());
-            var localMillisUTC = Date.parse(new Date().toUTCString());
-
-            offset = serverTimeMillisGMT -  localMillisUTC;
+        var currentDate = new Date();
+        var currentYear = currentDate.getFullYear();
+        var eventDate = new Date("September 29, " + currentYear);
+        var dayDiff = Math.ceil((eventDate - currentDate) / 1000 / 60 / 60 / 24);
+        var untilSince = "";
+        if (dayDiff >= 0) {
+            untilSince += "day/s until";
+        } else {
+            dayDiff = dayDiff * -1
+            untilSince += "day/s since";
         }
-
-        function getServerTime() {
-            var date = new Date();
-
-            date.setTime(date.getTime() + offset);
-
-            return date;
+        function disDayNum(targetElementId) {
+            document.getElementById(targetElementId).innerHTML = dayDiff;
+        }
+        function disUntilSince(targetElementId) {
+            document.getElementById(targetElementId).innerHTML = untilSince;
         }
     </script>
     <style>
@@ -38,12 +35,12 @@
 	}
     </style>
 </head>
-<body>
+<body onload="disDayNum('dayNum'); disUntilSince('untilSince');">
 
-	<h1>505</h1>
-	<p>days since</p>
-	<p><b>Labor Day (May 1)</b></p>
-	<p><b>[PH]</b></p>
+	<h1><span id="dayNum"/></h1>
+	<p><span id="untilSince"/></p>
+	<p><b>Team Building (September 29)</b></p>
+	<p><b>[JP]</b></p>
 
 </body>
 </html>
