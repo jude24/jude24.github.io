@@ -12,12 +12,12 @@
 </head>
 <body>
 <div id="reminder" style="position: relative; overflow:hidden;background-color: #FFFFFF;text-align:center;">
-     <iframe src="https://jude24.github.io/Test%20Event.html" name="frame" id="frame" width="220px" frameborder="0" scrolling="no"></iframe>
-     <iframe src="https://goo.gl/kayCvq" name="frame" id="frame" width="220px" frameborder="0" scrolling="no"></iframe>
-     <iframe src="https://goo.gl/9OZl1N" name="frame" id="frame" width="220px" frameborder="0" scrolling="no"></iframe>
-     <iframe src="https://goo.gl/D327aT" name="frame" id="frame" width="220px" frameborder="0" scrolling="no"></iframe>
-     <iframe src="https://goo.gl/n3bMcw" name="frame" id="frame" width="220px" frameborder="0" scrolling="no"></iframe>
-     <iframe src="https://goo.gl/dNsYKP" name="frame" id="frame" width="220px" frameborder="0" scrolling="no"></iframe>
+     <iframe src="https://jude24.github.io/Event1.html" name="frame" id="frame" width="220px" frameborder="0" scrolling="no"></iframe>
+     <iframe src="https://jude24.github.io/Event2.html" name="frame" id="frame" width="220px" frameborder="0" scrolling="no"></iframe>
+     <iframe src="https://jude24.github.io/Event3.html" name="frame" id="frame" width="220px" frameborder="0" scrolling="no"></iframe>
+     <iframe src="https://jude24.github.io/Event4.html" name="frame" id="frame" width="220px" frameborder="0" scrolling="no"></iframe>
+     <iframe src="https://jude24.github.io/Event5.html" name="frame" id="frame" width="220px" frameborder="0" scrolling="no"></iframe>
+     <iframe src="https://jude24.github.io/Event6.html" name="frame" id="frame" width="220px" frameborder="0" scrolling="no"></iframe>
 </div>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script>
